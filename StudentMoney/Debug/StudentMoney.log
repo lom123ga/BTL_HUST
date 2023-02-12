@@ -1,0 +1,7 @@
+﻿  GSEnd.cpp
+C:\Users\ssopt\source\repos\StudentMoney\StudentMoney\AppStateManager\TextBox.h(53,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ssopt\source\repos\StudentMoney\StudentMoney\AppStateManager\TextBox.h(77,30): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\ssopt\source\repos\StudentMoney\StudentMoney\AppStateManager\TextBox.h(81,35): warning C4018: '>': signed/unsigned mismatch
+C:\Users\ssopt\source\repos\StudentMoney\StudentMoney\AppStateManager\TextBox.h(104,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ssopt\source\repos\StudentMoney\StudentMoney\AppStateManager\GSEnd.cpp(92,17): warning C4305: '-=': truncation from 'double' to 'float'
+  StudentMoney.vcxproj -> C:\Users\ssopt\source\repos\StudentMoney\Debug\StudentMoney.exe

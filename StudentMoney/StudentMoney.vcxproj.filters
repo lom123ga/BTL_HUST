@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Sources">
+      <UniqueIdentifier>{72220082-b22d-4d57-a75a-bb2e2a76f9cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sources\AppStateManager">
+      <UniqueIdentifier>{63cc90d5-e7ef-46ba-abc7-e063582cef6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sources\AppManager">
+      <UniqueIdentifier>{93b34abf-12c6-4a8a-9f7f-076d4267fbc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sources\AppObjects">
+      <UniqueIdentifier>{a31b4db1-0b2b-4267-a639-8011fe84703c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StudentMoney.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="AppStateManager\AppStateBase.cpp">
+      <Filter>Source Files\Sources\AppStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AppStateManager\AppStateMachine.cpp">
+      <Filter>Source Files\Sources\AppStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AppStateManager\GSEnd.cpp">
+      <Filter>Source Files\Sources\AppStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AppStateManager\GSInfo.cpp">
+      <Filter>Source Files\Sources\AppStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AppStateManager\GSMenu.cpp">
+      <Filter>Source Files\Sources\AppStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AppStateManager\GSPlay.cpp">
+      <Filter>Source Files\Sources\AppStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AppStateManager\GSSetting.cpp">
+      <Filter>Source Files\Sources\AppStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AppManager\ResourceManager.cpp">
+      <Filter>Source Files\Sources\AppManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AppManager\WindowConnector.cpp">
+      <Filter>Source Files\Sources\AppManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AppObjects\Animation.cpp">
+      <Filter>Source Files\Sources\AppObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="AppObjects\AppButton.cpp">
+      <Filter>Source Files\Sources\AppObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="AppObjects\Hitbox.cpp">
+      <Filter>Source Files\Sources\AppObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="AppObjects\UI.cpp">
+      <Filter>Source Files\Sources\AppObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Source Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="AppStateManager\AppStateBase.h">
+      <Filter>Source Files\Sources\AppStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AppStateManager\AppStateMachine.h">
+      <Filter>Source Files\Sources\AppStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AppStateManager\GSEnd.h">
+      <Filter>Source Files\Sources\AppStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AppStateManager\GSInfo.h">
+      <Filter>Source Files\Sources\AppStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AppStateManager\GSMenu.h">
+      <Filter>Source Files\Sources\AppStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AppStateManager\GSPlay.h">
+      <Filter>Source Files\Sources\AppStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AppStateManager\GSSetting.h">
+      <Filter>Source Files\Sources\AppStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AppManager\ResourceManager.h">
+      <Filter>Source Files\Sources\AppManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AppManager\Singleton.h">
+      <Filter>Source Files\Sources\AppManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AppManager\WindowConnector.h">
+      <Filter>Source Files\Sources\AppManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AppObjects\Animation.h">
+      <Filter>Source Files\Sources\AppObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="AppObjects\AppButton.h">
+      <Filter>Source Files\Sources\AppObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="AppObjects\Hitbox.h">
+      <Filter>Source Files\Sources\AppObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="AppObjects\UI.h">
+      <Filter>Source Files\Sources\AppObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="AppConfig.h">
+      <Filter>Source Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="AppStateManager\TextBox.h">
+      <Filter>Source Files\Sources\AppStateManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
