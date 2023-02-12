@@ -1,0 +1,3 @@
+an 10000 com 4
+di chuyen 50000 xe bus 6
+Tong tien tieu : 60000
